@@ -1,6 +1,5 @@
 spring:
-  cloud:
-    config:
-      import: optional:configserver:http://127.0.0.1:8888
+  config:
+    import: optional:configserver:http://127.0.0.1:8888
   application:
     name: discovery-service
